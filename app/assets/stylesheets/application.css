@@ -13,3 +13,107 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  color: #333;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+ h3 {
+  color: #4b4a4a;
+  display: flex;
+  justify-content: center;
+
+}
+p {
+  color: #666;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 3%;
+}
+
+/* Formulaire */
+form {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+input[type="submit"] {
+  margin-top: 3%;
+  margin-left: 1%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFC96F;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.coach {
+  background-color: #F6F5F2;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.user {
+  background-color: #F0EBE3;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 25%;
+}
+
+/* Liens */
+a {
+  color: #0e2945;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: right;
+}
+
+a:hover {
+  color: rgb(23, 23, 107);
+}
